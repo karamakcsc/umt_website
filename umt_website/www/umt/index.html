@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United Motor Trade Co. Ltd.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background: url('https://via.placeholder.com/1920x600') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .inventory img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">United Motor Trade Co. Ltd.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inventory">Inventory</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Find Your Dream Car Today</h1>
+            <p class="lead">Browse our inventory and drive away with your perfect car</p>
+            <a href="#inventory" class="btn btn-primary btn-lg">View Inventory</a>
+        </div>
+    </header>
+
+    <!-- Car Inventory Section -->
+    <section id="inventory" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Car Inventory</h2>
+            <div class="row text-center">
+                <div class="col-md-4 inventory">
+                    <img src="https://via.placeholder.com/350x200" alt="Sedan - Model X">
+                    <h5>Sedan - Model X</h5>
+                    <p>Luxury and comfort combined. Price: $25,000.</p>
+                </div>
+                <div class="col-md-4 inventory">
+                    <img src="https://via.placeholder.com/350x200" alt="SUV - Adventure Pro">
+                    <h5>SUV - Adventure Pro</h5>
+                    <p>Rugged and ready for any journey. Price: $30,000.</p>
+                </div>
+                <div class="col-md-4 inventory">
+                    <img src="https://via.placeholder.com/350x200" alt="Sports Car - Speedster">
+                    <h5>Sports Car - Speedster</h5>
+                    <p>Performance meets elegance. Price: $50,000.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dealership Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/150" alt="Financing Options" class="mb-3">
+                    <h5>Financing Options</h5>
+                    <p>Flexible financing plans to suit every budget.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/150" alt="Trade-In Program" class="mb-3">
+                    <h5>Trade-In Program</h5>
+                    <p>Exchange your old car for a better deal on your new one.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/150" alt="Maintenance Services" class="mb-3">
+                    <h5>Maintenance Services</h5>
+                    <p>Top-notch car maintenance to keep your vehicle in shape.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <p class="text-center">Interested in a car or have questions? Reach out to us today!</p>
+            <form>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="col-12">
+                        <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2025 Car Dealer. All rights reserved.</p>
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
