@@ -7,7 +7,7 @@ def get_car_models():
     items = frappe.get_all(
         "Item",
         fields=["name", "item_name", "image"],
-        filters={"disabled": 0},
+        filters={"disabled": 0, "item_group": "Car Models"},
         order_by="name asc"
     )
     return items
