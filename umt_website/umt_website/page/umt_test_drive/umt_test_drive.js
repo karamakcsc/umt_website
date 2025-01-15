@@ -358,7 +358,7 @@ body {
         </div>
         <div style="flex: 1;">
             <label for="car-image">Car Image</label>
-            <img id="car-image" src="" alt="no image.." style="width:200px;height:200px;">
+            <img id="car-image" src="" alt="no image..">
         </div>
     </div>
 
